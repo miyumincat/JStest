@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Title</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="playbutton">
+      <h2>
+        Generate a number between 0 and
+        <input id="max" type="number" min="1" required />
+      </h2>
+      <h3>
+        Guess the number :
+        <input id="guess" type="number" min="0" required />
+        <input type="submit" value="Play!" />
+      </h3>
+    </form>
+    <div id="numbers">
+      <span id="youwin"></span>
+      <span id="youlose"></span>
+    </div>
+
+    <script src="miyu.js"></script>
+  </body>
+</html>
